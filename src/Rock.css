@@ -1,0 +1,40 @@
+.img,.imga{
+    width:150px;
+    height: 150px;
+    padding: 20px;
+    transform: scale(1);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+#contain{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.img:hover{
+    padding: 10;
+    transform: scale(1.2);
+}
+.comp{
+    transform: rotateY(180deg);
+}
+.retry{
+    align-self: center;
+}
+.result{
+    transition: all 1s ease-out;
+    opacity: 0;
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    width: 300px;
+    left:57px;
+    align-items: center;
+    border-radius: 35px;
+    background-color: rgba(216, 194, 121, 0.705);
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 70px;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 #fff, 0 2px 0 rgb(2, 2, 2), 0 -2px 0 #fff, 1px 1px rgb(8, 8, 8), -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
